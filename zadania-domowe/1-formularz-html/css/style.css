@@ -1,0 +1,56 @@
+form
+{
+    width: 450px;
+    background-color: darkcyan;
+    border: 2px dotted black;
+    padding: 20px;
+}
+
+p {
+    margin-bottom: 0px;
+}
+
+textarea {
+    margin-bottom:10px;
+}
+
+form input[type="checkbox"] {
+    margin-bottom: 25px;
+}
+
+form input {
+    margin-bottom: 10px;
+}
+
+form label {
+    display: block;
+}
+
+form label[for*='male'],
+form label[for='zgoda'] {
+    display: inline-block;
+}
+
+form select,
+form textarea,
+form input {
+    background-color: darkseagreen;
+    outline: none;
+    border: 1px dotted #fff;
+}
+
+form select:focus,
+form input:focus,
+form textarea:focus {
+    background-color: lightgrey;
+    border: 1px solid #fff;
+    outline: none;
+}
+
+form input[type="submit"] {
+    background-color: burlywood;
+    display: block;
+    border: none;
+    padding: 10px 20px;
+    font-weight: 400;
+}
