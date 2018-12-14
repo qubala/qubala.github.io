@@ -1,0 +1,42 @@
+/* Responsive CSS */
+
+
+@media all and (min-width: 1170px) {
+    #image {
+        background-image: url(../img/man-1.jpg)
+    }
+}
+
+@media all and (min-width: 992px) and (max-width: 1169px) {
+    #image {
+        background-image: url(../img/man-2.jpg);
+        height: 70vh;
+    }
+
+    #container {
+        display: flex;
+        width: 100vw;
+        justify-content: flex-start;
+        align-items: flex-end;
+
+    }
+}
+
+@media all and (max-width: 991px) {
+    #image {
+        background-image: url(../img/man-1.jpg);
+        height: 50vh;
+    }
+
+    #container {
+        top: 50vh;
+        height: 50vh;
+        width: 100vw;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    h1,
+    h2 {
+        color: black;
+    }
