@@ -3,19 +3,20 @@
 
 @media all and (min-width: 1170px) {
     #image {
-        background-image: url(../img/man-1.jpg)
+        background-image: url(../img/man-1.jpg);
+        background-size: cover;
     }
 }
 
 @media all and (min-width: 992px) and (max-width: 1169px) {
     #image {
         background-image: url(../img/man-2.jpg);
-        height: 70vh;
+        height: 70%;
+        background-size: cover;
     }
 
     #container {
         display: flex;
-        width: 100vw;
         justify-content: flex-start;
         align-items: flex-end;
 
@@ -25,13 +26,13 @@
 @media all and (max-width: 991px) {
     #image {
         background-image: url(../img/man-1.jpg);
-        height: 50vh;
+        height: 50%;
+        background-size: cover;
     }
 
     #container {
-        top: 50vh;
-        height: 50vh;
-        width: 100vw;
+        top: 50%;
+        height: 50%;
         align-items: center;
         justify-content: flex-start;
     }
