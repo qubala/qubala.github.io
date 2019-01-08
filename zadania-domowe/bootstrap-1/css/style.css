@@ -1,0 +1,15 @@
+* {
+    text-align: center;
+    color: gray;
+    font-weight: 300;
+}
+
+
+
+i {
+    padding: 30px;
+    font-size:4em;
+    color: darkgoldenrod;
+    border-radius: 50%;
+    background-color: lightgray;
+}
